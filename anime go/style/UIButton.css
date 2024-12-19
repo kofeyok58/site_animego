@@ -1,0 +1,29 @@
+.UIButton{
+    padding: 0 20px;
+    font-weight: 500;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ccc;
+}
+.UIButton:hover{
+    color: white;
+}
+.UIButton.UIButton_outline{
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #ffdb4c;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 2px #e8c229;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

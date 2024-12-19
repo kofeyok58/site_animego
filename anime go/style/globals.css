@@ -1,0 +1,82 @@
+
+* {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+/* .space{
+    height: 100vh;
+} */
+/* @font-face {
+    font-family: 'FontAwesome';
+    src: url(../assets/fonts/fontawesome-webfont.woff2);
+    font-weight: normal;
+    font-style: normal
+} */
+
+body {
+    font: 15px 'Exo 2', Tahoma, Geneva, sans-serif;
+    line-height: normal;
+    color: #ccc;
+    min-width: 320px;
+    font-weight: 300;
+    position: relative;
+    background-color: dimgray;
+    background-image: url(../images/bg.png);
+    background-size:auto;
+}
+.block {
+    background-color: #202328;
+    box-shadow: 0 0 20px rgb(0 0 0 / 80%); 
+    max-width: 1100px;
+    margin: 0 auto;
+    /* padding: 0 20px 0 0; */
+    position: relative;
+    z-index: 100;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-card__mask-img span.fa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    background-color: #fff;
+    margin: 0 auto 15px auto;
+    padding-left: 5px;
+    font-size: 34px;
+}
+span {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1220px) {
+    .block {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .block {
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .block {
+        max-width: 640px;
+    }
+}
